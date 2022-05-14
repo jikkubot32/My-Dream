@@ -3,7 +3,7 @@ aiohttp==3.7.4
 asyncio
 beautifulsoup4
 bs4
-carbonnow==0.0.1
+carbonnow
 ffmpeg
 ffmpeg-python
 ffmpeg-python
