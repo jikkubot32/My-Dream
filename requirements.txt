@@ -41,7 +41,6 @@ youtube_search_python
 youtube-dl
 youtube-search-python==1.4.6
 ytthumb
-catdoesnotexist
 countryinfo
 domain-extract
 hashtags_extract
