@@ -45,7 +45,6 @@ countryinfo
 domain-extract
 hashtags_extract
 pendulum
-persondoesnotexist
 Pillow>=4.2.0
 Pymoe
 yt_dlp
