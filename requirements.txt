@@ -1,6 +1,6 @@
 aiofiles
 aiohttp==3.7.4
-asyncio
+asyncio==3.4.3
 beautifulsoup4
 bs4
 carbonnow
