@@ -1003,7 +1003,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "close":
         await query.message.delete()
     elif query.data == 'tips':
-        await query.answer("🔖 Ask with correct spelling\n🔖 Don't ask Movies that are NOT released in DVD or OTT, Some Of PreDvD Quality Available🤧\n🔖 Click only once on the Filter Button𝗌\n🔖 For Better Results:\n\t\t\t\t\t\t- MovieName year\n\t\t\t\t\t\t- Eg: Kuruthi 2021", True)
+        await query.answer("🔖 Ask with correct spelling\n🔖 Don't ask Movies that are NOT released in DVD or OTT✅\n🔖 For Better Results:\n\t\t\t\t\t\t- MovieName year\n\t\t\t\t\t\t- Eg: Kuruthi 2021", True)
     try: await query.answer('Piracy Is Crime') 
     except: pass
 
