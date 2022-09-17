@@ -26,7 +26,7 @@ class script(object):
     ABOUT_TXT = """
 𝐌𝐲 𝐍𝐚𝐦𝐞 : {} 🐍
 
-🦁 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : <a href=https://t.me/FilmClub_Channel>𝐅𝐈𝐋𝐌 𝐂𝐋𝐔𝐁 𝐓𝐄𝐀𝐌</a>🍷
+🦁 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : <a href=https://t.me/Film_ClubChannel>𝐅𝐈𝐋𝐌 𝐂𝐋𝐔𝐁 𝐓𝐄𝐀𝐌</a>🍷
 
 🐍𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : 𝐏𝐲𝐭𝐡𝐨𝐧
 
@@ -41,11 +41,11 @@ class script(object):
 """
     SOURCE_TXT = """<b>DISCLAIMER NOTE‼️:</b>
     
-<b>- @FilmClub_Channel is an Open Source Project.</b> <code>All the files in this bot are freely available on the internet or posted by somebody else. This bot is indexing files which are already uploaded on Telegram for easy of searching, We respect all the copyright laws and works in compliance with DMCA and EUCD. If anything is against law please contact us so that it can be removed asap. It is forbidden to download, stream, reproduce, or by any means, share, or consume, content without explicit permission from the content creator or legal copyright holder. If you believe this bot is violating your intellectual property, contact the respective channels for removal. The Bot does not own any of these contents, it only index the files from telegram. </code>
-- <b>Source - @FilmClubGroup </b>
+<b>- @Film_ClubChannel is an Open Source Project.</b> <code>All the files in this bot are freely available on the internet or posted by somebody else. This bot is indexing files which are already uploaded on Telegram for easy of searching, We respect all the copyright laws and works in compliance with DMCA and EUCD. If anything is against law please contact us so that it can be removed asap. It is forbidden to download, stream, reproduce, or by any means, share, or consume, content without explicit permission from the content creator or legal copyright holder. If you believe this bot is violating your intellectual property, contact the respective channels for removal. The Bot does not own any of these contents, it only index the files from telegram. </code>
+- <b>Source - @Film_ClubGroup </b>
 
 <b>𝐃𝐄𝐕𝐒:</b>
-- <a href=https://t.me/FilmClub_Channel>Team Film Club</a>  
+- <a href=https://t.me/Film_ClubChannel>Team Film Club</a>  
 """
     TTS_TXT = """<b>TEXT TO SPEACH</b>
 Simple Telegram Text-To-Speech Module.
@@ -168,13 +168,13 @@ Auto Filter 𝗌𝗎𝗉𝗉𝗈𝗋𝗍𝗌 𝖻𝗈𝗍𝗁 𝗎𝗋𝗅 𝖺�
 𝟥. 𝖡𝗎𝗍𝗍𝗈𝗇𝗌 𝗌𝗁𝗈𝗎𝗅𝖽 𝖻𝖾 𝗉𝗋𝗈𝗉𝖾𝗋𝗅𝗒 𝖿𝗈𝗋𝗆𝖺𝗍𝗍𝖾𝖽 𝖺𝗌 𝖻𝖾𝗅𝗈𝗐 𝗈𝗋 𝖾𝗅𝗌𝖾 𝗋𝖾𝗌𝗎𝗅𝗍 𝗐𝗂𝗅𝗅 𝖻𝖾 𝗆𝖺𝗅𝖿𝗈𝗋𝗆𝖾𝖽. 
 <b>𝖴𝖱𝖫 𝖻𝗎𝗍𝗍𝗈𝗇𝗌:</b>
 - 𝗌𝗂𝗇𝗀𝗅𝖾 𝖻𝗎𝗍𝗍𝗈𝗇 
-<code>[𝖡𝗎𝗍𝗍𝗈𝗇](𝖻𝗎𝗍𝗍𝗈𝗇𝗎𝗋𝗅://𝗍.𝗆𝖾/FilmClub_Channel)</code>
+<code>[𝖡𝗎𝗍𝗍𝗈𝗇](𝖻𝗎𝗍𝗍𝗈𝗇𝗎𝗋𝗅://𝗍.𝗆𝖾/Film_ClubChannel)</code>
 - 𝖣𝗈𝗎𝖻𝗅𝖾 𝖻𝗎𝗍𝗍𝗈𝗇 
-<code>[𝖡𝗎𝗍𝗍𝗈𝗇𝟣](𝖻𝗎𝗍𝗍𝗈𝗇𝗎𝗋𝗅://𝗍.𝗆𝖾/FilmClub_Channel)
+<code>[𝖡𝗎𝗍𝗍𝗈𝗇𝟣](𝖻𝗎𝗍𝗍𝗈𝗇𝗎𝗋𝗅://𝗍.𝗆𝖾/Film_ClubChannel)
 [𝖡𝗎𝗍𝗍𝗈𝗇𝟤](𝖻𝗎𝗍𝗍𝗈𝗇𝗎𝗋𝗅://𝗍.𝗆𝖾/telegram)</code>
 - 𝖣𝗈𝗎𝖻𝗅𝖾 𝖻𝗎𝗍𝗍𝗈𝗇𝗌 𝗂𝗇 𝖲𝖺𝗆𝖾 𝖱𝖺𝗐 
-<code>[𝖡𝗎𝗍𝗍𝗈𝗇𝟣](𝖻𝗎𝗍𝗍𝗈𝗇𝗎𝗋𝗅://𝗍.𝗆𝖾/FilmClub_Channel)
-[𝖡𝗎𝗍𝗍𝗈𝗇𝟤](𝖻𝗎𝗍𝗍𝗈𝗇𝗎𝗋𝗅://𝗍.𝗆𝖾/FilmClub_Channel:𝗌𝖺𝗆𝖾)</code>
+<code>[𝖡𝗎𝗍𝗍𝗈𝗇𝟣](𝖻𝗎𝗍𝗍𝗈𝗇𝗎𝗋𝗅://𝗍.𝗆𝖾/Film_ClubChannel)
+[𝖡𝗎𝗍𝗍𝗈𝗇𝟤](𝖻𝗎𝗍𝗍𝗈𝗇𝗎𝗋𝗅://𝗍.𝗆𝖾/Film_ClubChannel:𝗌𝖺𝗆𝖾)</code>
 <b>𝖠𝗅𝖾𝗋𝗍 𝖻𝗎𝗍𝗍𝗈𝗇𝗌:</b>
 <code>[𝖡𝗎𝗍𝗍𝗈𝗇](𝖻𝗎𝗍𝗍𝗈𝗇𝖺𝗅𝖾𝗋𝗍:𝗍𝗁𝗂𝗌 𝗂𝗌 𝖺𝗇 𝖺𝗅𝖾𝗋𝗍!)</code>
 """
