@@ -432,7 +432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 msg = await client.send_cached_media(
                 chat_id=REDIRECT_TO,
                 file_id=file_id,
-                caption=f'<b>Hai 👋 {query.from_user.mention}</b> 😍\n\n<code>{title}</code>\n\n⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading..!!!</i>\n\n<b>╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗\n⚠️ 𝙅𝙊𝙄𝙉 :- @FilmClubGroup\n♻️ 𝙅𝙊𝙄𝙉 :- @NewDVDReleaseUpdate\n╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝</b>',
+                caption=f'<b>Hai 👋 {query.from_user.mention}</b> 😍\n\n<code>{title}</code>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading..!!!</i>\n\n<b>╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗\n⚠️ 𝙅𝙊𝙄𝙉 :- @Film_ClubGroup\n♻️ 𝙅𝙊𝙄𝙉 :- @New_DVD_OTT_Update\n╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝</b>',
                 protect_content=True if ident == "filep" else False 
             )
             msg1 = await query.message.reply(
@@ -447,7 +447,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton('📥 Download 📥 ', url = msg.link)
                         ],                       
                         [
-                            InlineKeyboardButton("⚠️ Can't Access ❓ Click Here ⚠️", url=f'https://t.me/+osjDno93NfozYzU0')
+                            InlineKeyboardButton("⚠️ Can't Access ❓ Click Here ⚠️", url=f'https://t.me/+mj5eS6NClpE4ODE8')
                         ]
                     ]
                 )
@@ -502,8 +502,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-        InlineKeyboardButton('💠 Channel', url='https://t.me/FilmClub_Channel'),
-        InlineKeyboardButton('♻️ Group', url ='https://t.me/FilmClubGroup')
+        InlineKeyboardButton('💠 Channel', url='https://t.me/Film_ClubChannel'),
+        InlineKeyboardButton('♻️ Group', url ='https://t.me/Film_ClubGroup')
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
@@ -1003,7 +1003,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "close":
         await query.message.delete()
     elif query.data == 'tips':
-        await query.answer("🔖 Ask with correct spelling\n🔖 Don't ask Movies that are NOT released in DVD or OTT✅\n🔖 For Better Results:\n\t\t\t\t\t\t- MovieName year\n\t\t\t\t\t\t- Eg: Kuruthi 2021", True)
+        await query.answer("🔖 Ask with correct spelling\n🔖 Don't ask Movies that are NOT released in DVD or OTT✅\n🔖 For Better Results:\n\t\t\t\t\t\t- MovieName Year\n\t\t\t\t\t\t- Eg: Kuruthi 2021", True)
     try: await query.answer('Piracy Is Crime') 
     except: pass
 
