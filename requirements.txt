@@ -42,7 +42,6 @@ youtube-dl
 youtube-search-python==1.4.6
 ytthumb
 countryinfo
-domain-extract
 hashtags_extract
 pendulum
 Pillow>=4.2.0
