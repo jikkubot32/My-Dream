@@ -8,5 +8,5 @@ else
 fi
 cd /My-Dream
 pip3 install -U -r requirements.txt
-echo "Starting My-Dream...."
+echo "Starting Bot...."
 python3 bot.py
